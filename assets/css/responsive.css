@@ -1,0 +1,495 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .multisteps-form__progress button { 
+        font-size: 17px; 
+    }
+    label.f-input {
+        min-width: 250px; 
+    }
+    .button-sub a.theme-btn { 
+        padding: 10px 60px;
+    }
+
+    .bottom-border{
+        margin-top: 200px; 
+        height: 70px; 
+    }
+    .stpss { 
+        width: 960px; 
+    }
+    .button-row span { 
+        margin-right: 50px; 
+    }
+    .right-sides a { 
+        margin-right: 70px; 
+    }
+
+
+
+
+
+
+
+
+
+
+}
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .logIn-wrp {
+        width: 100%; 
+    }
+    .top-contents { 
+        flex-wrap: wrap;
+    }
+    .rt-content p {  
+        border-left: none;
+        padding-left: 20px;
+        margin-bottom: 50px;
+    }
+    .theme-btn { 
+        height: 50px;
+        padding: 10px 50px; 
+    }
+    .button-row span {
+        font-size: 18px; 
+        margin-right: 20px;
+    }
+    .right-sides a {  
+        margin-right: 45px; 
+    }
+    .greatting-wrp p {
+        font-size: 28px;
+    }
+    h2 {
+        font-size: 48px;
+        margin-bottom: 25px;
+    } 
+    .greatting-wrp a.theme-btn { 
+        margin-top: 50px;
+    } 
+    .multisteps-form__progress button { 
+        padding-left: 27px;
+        font-size: 19px; 
+        padding-bottom: 20px;
+        margin-bottom: 50px;
+    }
+    .multisteps-form__progress button span {
+        display: none;
+    }
+    .bottom-border{
+        margin-top: 100px; 
+        height: 70px; 
+    } 
+    .stpss { 
+        width: 720px; 
+    }
+
+
+}
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    .logIn-wrp {
+        width: 100%; 
+    }
+    .logIn-wrp form {
+        width: 100%;
+    }
+    .top-contents {
+        display: block; 
+    }
+    label.f-input {
+        min-width: 100%;
+        overflow: hidden;
+        margin-top: 50px;
+    }
+    .recient-wrp {
+        display: block; 
+        margin-top: 30px;
+    }
+    .button-row {
+        margin-top: 30px;
+        align-items: unset !important;
+    }
+    body { 
+        font-size: 14px; 
+    }
+    h3 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    label {
+        font-size: 16px; 
+        margin-left: 5px;
+        margin-top: 10px; 
+    }
+    label input {  
+        height: 35px;
+        padding-left: 10px;  
+        margin-top: 0px;
+        margin-left: -5px;
+        font-size: 16px;
+        margin-right: 0px;
+    }
+    .nice-select {  
+        font-size: 16px; 
+        height: 35px;
+        line-height: 35px; 
+        padding-left: 5px;
+        padding-right: 10px; 
+        margin-top: 0px;
+        margin-left: -5px;
+    }
+    .top-contents label {
+        margin-left: 5px;
+    }
+    .logIn-wrp h3 {
+        margin: 0;
+        margin-bottom: 25px;
+    }
+    h4 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .blk-spacing {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .top-contents label.first-select {
+        max-width: 100%;
+        min-width: 100%; 
+    }
+    .theme-btn { 
+        height: 40px;
+        padding: 0px 30px;  
+        font-size: 16px;
+        font-weight: 400; 
+    }
+    .recient-wrp a.theme-btn {
+        padding: 8px 35px; 
+    }
+    .recient-wrp img {
+        margin-left: 15px;
+        margin-right: 0;
+        height: 30px;
+    }
+    .recient-wrp p {
+        max-width: 100%;
+        margin: 0;
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 10px;
+        display: block;
+    }
+    .button-row span {
+        font-size: 16px;
+        color: #9999;
+        margin-right: 20px;
+    }
+    .multisteps-form__progress { 
+        margin-bottom: 50px;
+        flex-wrap: wrap;
+    }
+    p.title-wrp {
+        font-size: 16px; 
+        margin-bottom: 40px;
+    }
+    label textarea { 
+        height: 115px; 
+    }
+    .logIn-wrp h2 {
+        margin-bottom: 30px;
+        font-size: 30px;
+    }
+    .button-sub a.theme-btn { 
+        line-height: 40px;
+    }
+    .button-row.flex-im {
+        display: flex !important;
+    }
+    button.js-btn-prev { 
+        font-size: 16px; 
+    }
+    button.js-btn-prev i {
+        font-size: 32px;
+        margin-right: 10px;
+    }
+    .about-blk { 
+        border-top: 2px solid #3A62A8;
+        padding-top: 20px;
+        margin-bottom: 20px;
+    }
+    .about-blk .ab-wrp h5 {
+        font-size: 16px; 
+        margin-bottom: 10px;
+    }
+    .ab-wrp.exp h5 {
+        margin-bottom: 10px;
+        line-height: 26px;
+    }
+    .about-blk .ab-wrp p {
+        font-size: 16px; 
+        margin-bottom: 15px;
+        display: block; 
+    }
+    .about-blk .ab-wrp p span{
+        display: none;
+    }
+    .about-blk .ab-wrp span {
+        font-size: 14px;  
+        margin-bottom: 20px; 
+    }
+    .rt-content p {
+        margin: 0;
+        font-size: 16px; 
+        border-left: none;
+        padding-left: 25px;
+        margin-bottom: 25px;
+    }
+    ul.footer { 
+        text-align: center;
+        padding: 15px 0;
+        padding-right: 0;
+    }
+    ul.footer li {
+        display: block;
+    }
+    ul.footer li a {
+        font-size: 14px;
+        margin-left: 0px;
+        text-align: left;
+        display: block;
+        margin: 0px;
+        padding-left: 20px;
+    } 
+    ul.footer li a i {
+        font-size: 20px;
+        margin-right: 6px;
+    }
+    ul.footer li a:last-child{
+        margin-top: 10px;
+    }
+    .button-sub { 
+        margin-top: 25px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #3A62A8;
+        margin-bottom: 15px;
+    }
+    .button-sub span {
+        margin-right: 35px; 
+        font-size: 16px;
+    }
+    a.add {
+        font-size: 15px;
+        font-weight: 600;
+        color: #3a62a8;
+    }
+    .row.mt-50 {
+        margin-top: 20px !important;
+    }
+    .last-blks {
+        border-bottom: 1px solid #3A62A8;
+        padding-bottom: 20px;
+        margin-bottom: 40px;
+    }
+    a.add.ot {
+        margin-bottom: 15px;
+        display: block;
+    }
+    label.l-textarea textarea {
+        height: 250px;
+    }
+    label.l-textarea a { 
+        font-size: 14px; 
+        margin-top: 10px;
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+    .recient.lst p {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .recient-wrp.lst a.theme-btn {
+        padding: 8px 50px;
+    }
+
+    .recient-wrp.lst {
+        margin-top: 10px;
+    }
+    .header ul li a.user { 
+        padding-right: 10px;
+        margin-right: 10px;
+        margin-left: 10px; 
+    }
+    .header ul li a img{
+        width: 15px;
+        height: auto;
+    }
+    .header ul { 
+        right: 8%;
+    }
+    .header a img {
+        width: 100%;
+        height: 87px; 
+    }
+    p.blk-title { 
+        border-bottom: 1px solid #3A62A8;
+        padding-bottom: 5px;
+        font-size: 16px; 
+    }
+    .cv-open {
+        padding-top: 20px;
+    }
+    .cv-open h5 {
+        font-size: 18px; 
+    }
+    .cv-open h5 span { 
+        font-size: 14px; 
+        margin-top: 2px;
+    }
+    .cv-open p {
+        margin: 0;
+        margin-top: 10px;
+        font-weight: 400;
+        font-size: 15px;
+    }
+    .button-row.w-border {
+        border-top: 1px solid #3A62A8;
+        padding-top: 10px;
+        margin-top: 50px;
+    }
+    .right-sides a {
+        font-size: 16px; 
+        margin-right: 0; 
+        margin-bottom: 15px;
+        display: block;
+    }
+    .right-sides {
+        text-align: right; 
+    }
+    .right-sides a i {
+        font-size: 24px;
+        position: relative;
+        top: 3px;
+        margin-right: 5px;
+    }
+    .right-sides span {
+        margin-bottom: 10px !IMPORTANT;
+        margin-right: 20px;
+        display: block;
+    }
+    .row.mt-120 {
+        margin-top: 30px !important;
+    }
+    .greatting-wrp h2 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+    .greatting-wrp p {
+        font-size: 16px;
+    }
+    .greatting-wrp {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+    .greatting-wrp a.theme-btn {
+        display: block;
+        width: 170px;
+        margin: auto;
+        margin-top: 40px;
+        padding-top: 6px;
+    }
+    .header {
+        margin-bottom: 50px; 
+    }
+    .multisteps-form__progress button {
+        text-align: left;
+        padding-left: 10px;
+        font-size: 16px; 
+        padding-bottom: 12px;
+        margin-bottom: 30px;
+        width: 50%;
+    }
+    .multisteps-form__progress-btn:after { 
+        height: 3px; 
+    }
+    .bottom-border{
+        margin-top: 100px; 
+        height: 50px;
+        background-color:  #3A62A8;
+      }
+
+    .logIn-wrp p { 
+        margin: 30px 0;
+        display: block;
+    }
+    .logIn-wrp p span {
+        font-size: 16px;  
+        display: block;
+        line-height: 26px;
+        margin-bottom: 10px; 
+    }
+    .logIn-wrp a.theme-btn {
+        min-width: 100%;
+        padding: 0;
+        line-height: 40px;
+    }
+    label span {
+        font-size: 16px;
+        margin-top: 8px;
+        display: block;
+    }
+    label.pass img{
+        display: none;
+    } 
+    .stpss { 
+        width: 100%;
+        padding-right: 15px; 
+    }
+    .multisteps-form__progress button i {
+        bottom: -25px;
+    }
+    .multisteps-form__progress button span {
+        display: none;
+    }
+    .multisteps-form__panel.ft a.add {
+        margin-bottom: 20px;
+        display: block;
+    }
+ 
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+.stpss { 
+    width: 450px; 
+}
+
+
+
+}
